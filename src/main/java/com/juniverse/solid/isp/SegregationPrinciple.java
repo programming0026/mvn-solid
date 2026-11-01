@@ -1,5 +1,8 @@
 package com.juniverse.solid.isp;
 
+
+import java.util.logging.Logger;
+import com.juniverse.solid.AppLogger;
 /**
  *
  * @author ajuar
@@ -12,10 +15,12 @@ package com.juniverse.solid.isp;
  * utilizan. Divide las interfaces grandes en otras más pequeñas y específicas.
  */
 public class SegregationPrinciple {
+    private static final Logger LOGGER = AppLogger.get(SegregationPrinciple.class);
+
 
     /** Un humano usa las cuatro capacidades; un robot solo trabaja. */
     public void principle() {
-        System.out.println("4. INTERFACE SEGREGATION PRINCIPLE (ISP)");
+        LOGGER.info("4. INTERFACE SEGREGATION PRINCIPLE (ISP)");
         Human human = new Human();
         human.food();
         human.work();

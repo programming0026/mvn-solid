@@ -1,11 +1,16 @@
 package com.juniverse.solid.lsp;
 
+
+import java.util.logging.Logger;
+import com.juniverse.solid.AppLogger;
 /**
  * Pingüino: se mueve nadando (no vuela, por eso {@code Bird} no declara {@code fly()}).
  *
  * @author ajuar
  */
 public class Penguin extends Bird {
+    private static final Logger LOGGER = AppLogger.get(Penguin.class);
+
 
     /** Nada. */
     @Override
@@ -15,6 +20,6 @@ public class Penguin extends Bird {
 
     /** Imprime que el pingüino nada. */
     private void swim() {
-        System.out.println("The penguin is swimming");
+        LOGGER.info("The penguin is swimming");
     }
 }

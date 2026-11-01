@@ -1,5 +1,8 @@
 package com.juniverse.solid.dip;
 
+
+import java.util.logging.Logger;
+import com.juniverse.solid.AppLogger;
 /**
  *
  * @author ajuar
@@ -14,10 +17,12 @@ package com.juniverse.solid.dip;
  * 
  */
 public class DependencyInversionPrinciple {
+    private static final Logger LOGGER = AppLogger.get(DependencyInversionPrinciple.class);
+
 
     /** Notifica por Gmail y por Outlook con la misma clase {@code Notificator}. */
     public void principle() {
-        System.out.println("5. DEPENDENCY INVERSION PRINCIPLE (DIP)");
+        LOGGER.info("5. DEPENDENCY INVERSION PRINCIPLE (DIP)");
         Email gmail = new EmailGmail();
         Notificator notificatorGmail = new Notificator(gmail);
         notificatorGmail.notify("Hi from Gmail!");

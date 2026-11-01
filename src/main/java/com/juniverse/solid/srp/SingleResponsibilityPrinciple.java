@@ -1,5 +1,8 @@
 package com.juniverse.solid.srp;
 
+
+import java.util.logging.Logger;
+import com.juniverse.solid.AppLogger;
 /**
  *
  * @author ajuar
@@ -12,6 +15,8 @@ package com.juniverse.solid.srp;
  * cambio puede afectar múltiples funcionalidades.
  */
 public class SingleResponsibilityPrinciple {
+    private static final Logger LOGGER = AppLogger.get(SingleResponsibilityPrinciple.class);
+
 
     private final EmailService emailService;
     private final UserValidatorService validatorService;
@@ -29,7 +34,7 @@ public class SingleResponsibilityPrinciple {
      * @throws IllegalArgumentException si el usuario no es válido
      */
     public void principle() {
-        System.out.println("1. SINGLE RESPONSIBILITY PRINCIPLE (SRP)");
+        LOGGER.info("1. SINGLE RESPONSIBILITY PRINCIPLE (SRP)");
 
         User user = new User("name", "name@mail.com");
 

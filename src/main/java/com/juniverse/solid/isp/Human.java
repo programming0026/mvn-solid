@@ -1,34 +1,39 @@
 package com.juniverse.solid.isp;
 
+
+import java.util.logging.Logger;
+import com.juniverse.solid.AppLogger;
 /**
  * Un humano implementa las cuatro interfaces pequeñas.
  *
  * @author ajuar
  */
 public class Human implements Feedable, Payable, Restable, Workable {
+    private static final Logger LOGGER = AppLogger.get(Human.class);
+
 
     /** El humano come. */
     @Override
     public void food() {
-        System.out.println("Human eating");
+        LOGGER.info("Human eating");
     }
 
     /** El humano cobra. */
     @Override
     public void salary() {
-        System.out.println("Collecting salary");
+        LOGGER.info("Collecting salary");
     }
 
     /** El humano duerme. */
     @Override
     public void sleep() {
-        System.out.println("Sleeping human");
+        LOGGER.info("Sleeping human");
     }
 
     /** El humano trabaja. */
     @Override
     public void work() {
-        System.out.println("Human working");
+        LOGGER.info("Human working");
     }
 
 }

@@ -1,11 +1,16 @@
 package com.juniverse.solid.lsp;
 
+
+import java.util.logging.Logger;
+import com.juniverse.solid.AppLogger;
 /**
  * Paloma: se mueve volando.
  *
  * @author ajuar
  */
 public class Pigeon extends Bird {
+    private static final Logger LOGGER = AppLogger.get(Pigeon.class);
+
 
     /** Vuela. */
     @Override
@@ -15,6 +20,6 @@ public class Pigeon extends Bird {
 
     /** Imprime que la paloma vuela. */
     private void fly() {
-        System.out.println("The pigeon is flying");
+        LOGGER.info("The pigeon is flying");
     }
 }

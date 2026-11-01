@@ -1,5 +1,8 @@
 package com.juniverse.solid.lsp;
 
+
+import java.util.logging.Logger;
+import com.juniverse.solid.AppLogger;
 /**
  *
  * @author ajuar
@@ -13,10 +16,12 @@ package com.juniverse.solid.lsp;
  * no deben romper el comportamiento esperado de la clase padre.
  */
 public class LiskovSubstitutionPrinciple {
+    private static final Logger LOGGER = AppLogger.get(LiskovSubstitutionPrinciple.class);
+
 
     /** Trata a una paloma y a un pingüino como {@code Bird} sin que el programa se rompa. */
     public void principle() {
-        System.out.println("3. LISKOV SUBSTITUTION PRINCIPLE (LSP)");
+        LOGGER.info("3. LISKOV SUBSTITUTION PRINCIPLE (LSP)");
         Bird pigeon = new Pigeon();
         Bird penguin = new Penguin();
         pigeon.move();

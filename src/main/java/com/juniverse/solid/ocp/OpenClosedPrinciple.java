@@ -3,6 +3,8 @@ package com.juniverse.solid.ocp;
 import java.util.ArrayList;
 import java.util.List;
 
+import java.util.logging.Logger;
+import com.juniverse.solid.AppLogger;
 /**
  *
  * @author ajuar
@@ -15,6 +17,8 @@ import java.util.List;
  * existente que ya funciona. Esto se logra mediante herencia, interfaces y polimorfismo.
  */
 public class OpenClosedPrinciple {
+    private static final Logger LOGGER = AppLogger.get(OpenClosedPrinciple.class);
+
     
     /**
      * Suma las áreas de cualquier lista de figuras y las imprime; no cambia al añadir figuras nuevas.
@@ -25,19 +29,19 @@ public class OpenClosedPrinciple {
         double total = 0;
         for (Figure figure : figures) {
             total += figure.calculateArea();
-            System.out.println(figure);
+            LOGGER.info(String.valueOf(figure));
         }
         return total;
     }
     
     /** Calcula el área total de un círculo, un rectángulo y un triángulo. */
     public void principle() {
-        System.out.println("2. OPEN/CLOSED PRINCIPLE (OCP)");
+        LOGGER.info("2. OPEN/CLOSED PRINCIPLE (OCP)");
         List<Figure> figures = new ArrayList<>();
         figures.add(new Circle(22));
         figures.add(new Rectangle(100, 200));
         figures.add(new Triangle(11, 22));
         double total = calculateTotalArea(figures);
-        System.out.printf("Total: %.2f%n", total);
+        LOGGER.info(String.format("Total: %.2f", total));
     }
 }
