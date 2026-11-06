@@ -3,7 +3,7 @@ package com.juniverse.solid.ocp;
 /**
  * Figura con área calculable. Se pueden añadir figuras nuevas sin modificar el código que las usa (OCP).
  *
- * @author ajuar
+ * @author Java Universe
  */
 
 public abstract class Figure {

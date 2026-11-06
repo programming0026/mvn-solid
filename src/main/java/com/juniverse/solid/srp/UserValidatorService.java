@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 /**
  * Única responsabilidad: validar usuarios.
  *
- * @author ajuar
+ * @author Java Universe
  */
 public class UserValidatorService {
 

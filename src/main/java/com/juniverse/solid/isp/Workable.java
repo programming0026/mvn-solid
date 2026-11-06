@@ -3,7 +3,7 @@ package com.juniverse.solid.isp;
 /**
  * Quien puede trabajar.
  *
- * @author ajuar
+ * @author Java Universe
  */
 public interface Workable {
 

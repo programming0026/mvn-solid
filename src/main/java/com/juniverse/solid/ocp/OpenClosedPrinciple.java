@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 import com.juniverse.solid.AppLogger;
 /**
  *
- * @author ajuar
+ * @author Java Universe
  * 
  * 2. OPEN/CLOSED PRINCIPLE (OCP)
  * Abierto para extensión, cerrado para modificación.

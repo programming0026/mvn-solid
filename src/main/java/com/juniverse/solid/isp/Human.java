@@ -6,7 +6,7 @@ import com.juniverse.solid.AppLogger;
 /**
  * Un humano implementa las cuatro interfaces pequeñas.
  *
- * @author ajuar
+ * @author Java Universe
  */
 public class Human implements Feedable, Payable, Restable, Workable {
     private static final Logger LOGGER = AppLogger.get(Human.class);

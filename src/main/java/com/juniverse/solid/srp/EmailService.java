@@ -6,7 +6,7 @@ import com.juniverse.solid.AppLogger;
 /**
  * Única responsabilidad: enviar correos.
  *
- * @author ajuar
+ * @author Java Universe
  */
 public class EmailService {
     private static final Logger LOGGER = AppLogger.get(EmailService.class);

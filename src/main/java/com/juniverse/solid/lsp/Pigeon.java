@@ -6,7 +6,7 @@ import com.juniverse.solid.AppLogger;
 /**
  * Paloma: se mueve volando.
  *
- * @author ajuar
+ * @author Java Universe
  */
 public class Pigeon extends Bird {
     private static final Logger LOGGER = AppLogger.get(Pigeon.class);

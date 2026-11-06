@@ -6,7 +6,7 @@ import com.juniverse.solid.AppLogger;
 /**
  * Un robot solo trabaja: implementa únicamente {@link Workable}.
  *
- * @author ajuar
+ * @author Java Universe
  */
 public class Robot implements Workable {
     private static final Logger LOGGER = AppLogger.get(Robot.class);

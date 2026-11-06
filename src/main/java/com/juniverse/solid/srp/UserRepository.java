@@ -6,7 +6,7 @@ import com.juniverse.solid.AppLogger;
 /**
  * Única responsabilidad: guardar usuarios.
  *
- * @author ajuar
+ * @author Java Universe
  */
 public class UserRepository {
     private static final Logger LOGGER = AppLogger.get(UserRepository.class);

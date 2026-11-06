@@ -3,7 +3,7 @@ package com.juniverse.solid.dip;
 /**
  * Notifica usando cualquier {@link Email}; la dependencia se inyecta por el constructor.
  *
- * @author ajuar
+ * @author Java Universe
  */
 public class Notificator {
 

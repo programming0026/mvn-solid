@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 import com.juniverse.solid.AppLogger;
 /**
  *
- * @author ajuar
+ * @author Java Universe
  * 
  * 5. DEPENDENCY INVERSION PRINCIPLE (DIP)
  * Depender de abstracciones, no de implementaciones concretas.

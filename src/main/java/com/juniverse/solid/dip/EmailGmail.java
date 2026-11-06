@@ -6,7 +6,7 @@ import com.juniverse.solid.AppLogger;
 /**
  * Envío de correo por Gmail (simulado).
  *
- * @author ajuar
+ * @author Java Universe
  */
 public class EmailGmail implements Email {
     private static final Logger LOGGER = AppLogger.get(EmailGmail.class);

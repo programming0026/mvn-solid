@@ -3,7 +3,7 @@ package com.juniverse.solid.dip;
 /**
  * Abstracción de un canal de correo (DIP: el código de alto nivel depende de esta interfaz).
  *
- * @author ajuar
+ * @author Java Universe
  */
 public interface Email {
 

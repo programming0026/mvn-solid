@@ -9,7 +9,7 @@ import com.juniverse.solid.srp.SingleResponsibilityPrinciple;
 /**
  * Recorre los cinco principios SOLID con un ejemplo de cada uno.
  *
- * @author ajuar
+ * @author Java Universe
  */
 public class Main {
 

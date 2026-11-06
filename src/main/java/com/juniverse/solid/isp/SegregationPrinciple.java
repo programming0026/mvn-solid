@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 import com.juniverse.solid.AppLogger;
 /**
  *
- * @author ajuar
+ * @author Java Universe
  * 
  * 4. INTERFACE SEGREGATION PRINCIPLE (ISP)
  * Los clientes no deberían depender de interfaces que no usan.

@@ -3,7 +3,7 @@ package com.juniverse.solid.ocp;
 /**
  * Círculo.
  *
- * @author ajuar
+ * @author Java Universe
  */
 
 public class Circle extends Figure {

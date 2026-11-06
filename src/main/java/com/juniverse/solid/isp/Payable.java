@@ -3,7 +3,7 @@ package com.juniverse.solid.isp;
 /**
  * Quien cobra un salario.
  *
- * @author ajuar
+ * @author Java Universe
  */
 public interface Payable {
 

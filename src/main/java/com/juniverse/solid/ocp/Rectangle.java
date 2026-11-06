@@ -3,7 +3,7 @@ package com.juniverse.solid.ocp;
 /**
  * Rectángulo.
  *
- * @author ajuar
+ * @author Java Universe
  */
 public class Rectangle extends Figure {
 

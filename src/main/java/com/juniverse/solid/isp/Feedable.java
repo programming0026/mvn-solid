@@ -3,7 +3,7 @@ package com.juniverse.solid.isp;
 /**
  * Quien necesita alimentarse.
  *
- * @author ajuar
+ * @author Java Universe
  */
 public interface Feedable {
 

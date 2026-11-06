@@ -6,7 +6,7 @@ import com.juniverse.solid.AppLogger;
 /**
  * Envío de correo por Outlook (simulado).
  *
- * @author ajuar
+ * @author Java Universe
  */
 public class EmailOutlook implements Email {
     private static final Logger LOGGER = AppLogger.get(EmailOutlook.class);

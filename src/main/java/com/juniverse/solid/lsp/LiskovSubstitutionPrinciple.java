@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 import com.juniverse.solid.AppLogger;
 /**
  *
- * @author ajuar
+ * @author Java Universe
  * 
  * 3. LISKOV SUBSTITUTION PRINCIPLE (LSP)
  * Los objetos de las subclases deben poder reemplazar a los objetos de la 

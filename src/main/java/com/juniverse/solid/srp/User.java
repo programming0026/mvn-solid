@@ -3,7 +3,7 @@ package com.juniverse.solid.srp;
 /**
  * Datos de un usuario.
  *
- * @author ajuar
+ * @author Java Universe
  */
 public class User {
 

@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 import com.juniverse.solid.AppLogger;
 /**
  *
- * @author ajuar
+ * @author Java Universe
  *
  * 1. SINGLE RESPONSIBILITY PRINCIPLE (SRP) 
  * Una clase debe tener una sola responsabilidad. 

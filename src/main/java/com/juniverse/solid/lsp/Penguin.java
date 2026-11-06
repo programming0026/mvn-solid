@@ -6,7 +6,7 @@ import com.juniverse.solid.AppLogger;
 /**
  * Pingüino: se mueve nadando (no vuela, por eso {@code Bird} no declara {@code fly()}).
  *
- * @author ajuar
+ * @author Java Universe
  */
 public class Penguin extends Bird {
     private static final Logger LOGGER = AppLogger.get(Penguin.class);
